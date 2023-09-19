@@ -17,7 +17,7 @@
 /* logo-section */
 .logo {
     color: var(--primary-brand, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -27,7 +27,7 @@
 
 .logo-span {
     color: var(--dark, #2E2F42);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
