@@ -259,6 +259,7 @@ body{
     letter-spacing: 0.04em;
     color: var(--primary-brand, #4D5AE5);
     background-color: var(--light, #F4F4FD);
+    cursor: pointer;
 }
 
 .btn:hover{
