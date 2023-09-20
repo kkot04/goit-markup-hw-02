@@ -109,7 +109,7 @@ body{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: var(--white-background, #FFFFFF);
+    color: var(--white-background, #FFFFFF);
 
 }
 
@@ -131,4 +131,27 @@ body{
 
 .hero-btn:focus{
     background-color: var(--pressed-state, #404BBF);
+}
+
+
+/* benefits section */
+.benefits-section {}
+
+.benefits-list {}
+
+.list {}
+
+.benefits-item {}
+
+.benefits-title { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark, #2E2F42);
+}
+
+.benefits-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
