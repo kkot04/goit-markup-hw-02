@@ -209,7 +209,35 @@ body{
     line-height:1.5;
     letter-spacing: 0.02em;
     color: var(--text, #434455);
-    
+
 }
 
 .team-photo {}
+
+
+/* footer */
+.footer {
+    background-color: var(--dark, #2E2F42);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--primary-brand, #4D5AE5);
+
+}
+
+.footer-span {
+    color: var(--light, #F4F4FD);
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--light, #F4F4FD);
+    letter-spacing: 0.02em;
+}
