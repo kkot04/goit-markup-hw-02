@@ -69,7 +69,7 @@ body{
     color: var(--pressed-state, #404BBF);
 }
 
-.header-link:active{
+.header-link:focus{
     color: var(--pressed-state, #404BBF);
 }
 
@@ -94,8 +94,41 @@ body{
     color: var(--pressed-state, #404BBF);
 }
 
-.address-link:active{
+.address-link:focus{
     color: var(--pressed-state, #404BBF);
 }
 
 
+/* hero section */
+.hero-section {
+    background-color: var(--dark, #2E2F42) ;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background-color: var(--white-background, #FFFFFF);
+
+}
+
+.hero-btn {
+    background-color: var(--primary-brand, #4D5AE5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background, #FFFFFF);
+    cursor: pointer;
+
+}
+
+.hero-btn:hover {
+    background-color: var(--pressed-state, #404BBF);
+}
+
+.hero-btn:focus{
+    background-color: var(--pressed-state, #404BBF);
+}
