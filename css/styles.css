@@ -174,3 +174,42 @@ body{
 .doing-item {}
 
 .doing-photo {}
+
+/* our team section  */
+.team-section {
+    background-color: var(--light,#F4F4FD) ;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark, #2E2F42);
+    
+}
+
+.team-list {}
+
+.team-item {
+    background-color: var(--white-background, #FFFFFF);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark, #2E2F42);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color: var(--text, #434455);
+    
+}
+
+.team-photo {}
