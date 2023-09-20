@@ -155,3 +155,22 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+/* doing sectoin */
+.doing-section {}
+
+.doing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--dark, #2E2F42);
+}
+
+.doing-list {}
+
+.doing-item {}
+
+.doing-photo {}
