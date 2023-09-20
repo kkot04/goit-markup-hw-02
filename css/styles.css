@@ -65,6 +65,14 @@ body{
     letter-spacing: 0.02em;
 }
 
+.header-link:hover{
+    color: var(--pressed-state, #404BBF);
+}
+
+.header-link:active{
+    color: var(--pressed-state, #404BBF);
+}
+
 .address{
     font-style: normal;
 }
@@ -81,3 +89,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.address-link:hover{
+    color: var(--pressed-state, #404BBF);
+}
+
+.address-link:active{
+    color: var(--pressed-state, #404BBF);
+}
+
+
